@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap');
+
+
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #333;
+}
+
+.navbar{
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar nav{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar ul a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 1.5rem;
+    font-weight: 300;
+    font-size: 0.83rem; 
+}
+.navbar ul a:hover{
+    color: #f5f524;
+}
+
+.navbar h3{
+    display: flex;
+    color: #f5f524;
+    font-size: 2.3rem;
+}
+
+.file{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 5rem auto;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0 2rem;
+    max-width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.file input{
+    display: none;
+}
+.file label{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.file label:hover{
+    color: #f5f524;
+}
+
+.file button{
+    background-color: #f5f524;
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.file button:hover{
+    background-color: #333;
+    color: #fff;
+}
+
+.content p{
+    color: #fff;
+    margin: 0 auto;
+    max-width: 60%;
+    text-align: justify;
+}
