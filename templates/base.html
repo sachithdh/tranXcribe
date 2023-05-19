@@ -5,24 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tranXcribe</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='styles/style.css')}}">
 </head>
 <body>
-    <div class="nav">
+    <div class="navbar">
         <nav>
+            <h3>tranXcribe</h3>
             <ul>
                 <li><a href="#">About</a></li>
             </ul>
-            <h3>tranXcribe</h3>
         </nav>
     </div>
     <div class="file">
         <form action="/generate" method="post" enctype="multipart/form-data">
-            <input type="file" name="audio" required>
-            <button type="submit">Upload</button>
+            <input type="file" id="audio" name="audio" required>
+            <label for="audio" id="audio-label">Choose File</label>
+            <button type="submit">Transcribe</button>
         </form>
     </div>
     
     {% block content %}
     {% endblock %}
+    <script src="{{url_for('static', filename='js/index.js')}}"></script>
 </body>
 </html>
