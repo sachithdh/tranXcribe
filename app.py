@@ -16,14 +16,9 @@ def generate():
 
         audio = open("new.mp3", "rb")
         transcript = transcribe(audio)
-        
-        
         return render_template("index.html", text = transcript)
+    
     return redirect(url_for("home"))
 
-
-
-
-
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
