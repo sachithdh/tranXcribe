@@ -95,3 +95,15 @@ body {
     max-width: 60%;
     text-align: justify;
 }
+
+.content #text{
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.5s ease-in, transform 0.5s ease-in;
+}
+
+.content #text.appear{
+    opacity: 1;
+    transform: translateX(0);
+}
+
