@@ -8,7 +8,7 @@ Read FAQs [here](https://help.openai.com/en/articles/7031512-whisper-api-faq)
 
 ```console
 # clone the repo
-$ git clone https://github.com/sachith-d/AI-Image-Generator.git
+$ git clone https://github.com/sacheex/tranXcribe.git
 
 # navigate to the directory
 $ cd AI-Image-Generator
