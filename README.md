@@ -11,7 +11,7 @@ Read FAQs [here](https://help.openai.com/en/articles/7031512-whisper-api-faq)
 $ git clone https://github.com/sacheex/tranXcribe.git
 
 # navigate to the directory
-$ cd AI-Image-Generator
+$ cd tranXcribe
 
 # install the requirements
 $ python3 -m pip install -r requirements.txt
