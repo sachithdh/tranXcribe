@@ -3,6 +3,8 @@
 Transcribing audio files to text using openAI [Whisper](https://openai.com/research/whisper)
 #### Supported audio formats - m4a, mp3, webm, mp4, mpga, wav, mpeg
 Read FAQs [here](https://help.openai.com/en/articles/7031512-whisper-api-faq)
+
+[CLI version](https://github.com/sacheex/tranXcribe-CLI) of this Web App
 ### Installation
 
 
